@@ -27,7 +27,7 @@ yum install -y docker
    2. 编译ambari
    3. 配置数据库环境、部署ambari集群 
 
-    部署成功后，网页访问IP:8080端口，账号密码admin/admin
+部署成功后，网页访问IP:8080端口，账号密码admin/admin
 ```shell
 ./build-containers.sh
 ```
@@ -44,8 +44,7 @@ yum install -y docker
 ./clear-containers.sh
 ```
 10. 删除编译环境
-
-    注：此操作将删除构建依赖的jar，下次编译需要重新拉取。
 ```shell
 docker rm -f ambari-rpm-build
-```
+```    
+注：此操作将删除构建依赖的jar，下次编译需要重新拉取。
