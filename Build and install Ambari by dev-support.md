@@ -29,7 +29,7 @@ Run the setup command, you will get `ambari/develop:trunk-centos-7` image. It ha
 * Ambari UI、Ambari Server Debug Port、MariaDB Server are also exposed to local ports: 8080、5005、3306.
 * Docker host names are: ambari-server、ambari-agent-01、ambari-agent-02.
 * Script execution end, log will be print Ambari Server RSA Private Key.
-* Open up a web browser and go to http://<ambari-server-host>:8080. Log in with username `admin` and password `admin`.
+* Open up a web browser and go to http://localhost:8080. Log in with username `admin` and password `admin`.
 * Extra configurations are in `build-containers.sh` last few lines, eg. Kerberos Configuration、Hive DB Configuration.
 
 **RHEL (CentOS 7) :**
